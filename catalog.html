@@ -3,6 +3,7 @@
       <head>
         <meta charset="utf-8">
         <title>HTML Academy: Седона</title>
+        <link rel="stylesheet" href="styles/style.css">
       </head>
 
       <body>
@@ -120,6 +121,7 @@
                   </fieldset>
 
                   <div class="choice-menu">
+                    <h3 class="cost">Стоимость, ₽:</h3>
                     <input class="choice-number" type="number" name="price-list" min="0" max="9000" step="100">
 
                     <input class="choice-range" type="range" min="0" max="9000" step="100">
@@ -184,7 +186,7 @@
                           <a class="product-class-button" href="#">
                             в избранное
                           </a>
-                          <a class="product-class-button" href="#">
+                          <a class="product-rating-button" href="#">
                             Рейтинг: 8,5
                           </a>
                           </li>
@@ -207,7 +209,7 @@
                               <a class="product-class-button" href="#">
                               в избранное
                               </a>
-                              <a class="product-class-button" href="#">
+                              <a class="product-rating-button" href="#">
                                 Рейтинг: 9,2
                               </a>
                             </li>
@@ -230,7 +232,7 @@
                                 <a class="product-class-button" href="#">
                                 в избранное
                                 </a>
-                                <a class="product-class-button" href="#">
+                                <a class="product-rating-button" href="#">
                                   Рейтинг: 6,9
                                 </a>
                               </li>
@@ -253,7 +255,7 @@
                                   <a class="product-class-button" href="#">
                                   в избранное
                                   </a>
-                                  <a class="product-class-button" href="#">
+                                  <a class="product-rating-button" href="#">
                                     Рейтинг: 5,0
                                   </a>
                                 </li>
@@ -302,15 +304,15 @@
 
                     </section>
                     <section class="register-page">
-                      <h2 class="registr-title">
+                      <h2 class="registr-title-inner">
                         Подпишитесь на рассылку
                       </h2>
-                      <p class="register-text">
+                      <p class="register-text-inner">
                         Только полезная информация и никакого спама, честное бойскаутское!
                       </p>
                       <form action="https://echo.htmlacademy.ru/courses" method="post">
                         <input class="register-input" type="email" name="email" id="email" placeholder="Ваш e-mail">
-                        <button class="register-button" type="submit">
+                        <button class="register-button-inner" type="submit">
                           Подписаться
                         </button>
                       </form>
